@@ -1,0 +1,24 @@
+.navbar {
+  background-color: aliceblue;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  padding: 5px;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
